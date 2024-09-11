@@ -6,6 +6,13 @@ import location from "./whthap/location.svg"
 import gif from "./whthap/gif.svg"
 import globe from "./whthap/globe.svg"
 
+import bookmark from "./postIcon/bookmark.svg"
+import comment from "./postIcon/comment.svg"
+import like from "./postIcon/like.svg"
+import repost from "./postIcon/repost.svg"
+import share from "./postIcon/share.svg"
+import view from "./postIcon/view.svg"
+
 
 export {
     emoji,
@@ -14,5 +21,12 @@ export {
     schedule,
     location,
     gif,
-    globe
+    globe,
+    
+    bookmark,
+    comment,
+    like,
+    repost,
+    share,
+    view
 }
