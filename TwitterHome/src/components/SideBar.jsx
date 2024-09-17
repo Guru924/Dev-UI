@@ -80,7 +80,8 @@ function SideBar() {
     ]
 
     return (
-
+        <div className="first w-16 md:w-[40vw] max-h-[90vh] md:pr-16 sticky top-0">
+        
         <div className="sideBar flex justify-end max-h-[90vh] ">
             <ul className="flex flex-col items-end md:items-start text-xl space-y-4 pl-0 pr-2 font-bold min-h-[90vh] justify-between md:justify-normal">
                 
@@ -114,6 +115,7 @@ function SideBar() {
                 </li>
             </ul>
 
+        </div>
         </div>
     )
 }
