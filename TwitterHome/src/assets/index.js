@@ -13,16 +13,16 @@ import repost from "./postIcon/repost.svg";
 import share from "./postIcon/share.svg";
 import view from "./postIcon/view.svg";
 
-import home from "./sidebarIcons/home.svg";
-import explore from "./sidebarIcons/explore.svg";
-import notification from "./sidebarIcons/notification.svg";
-import messages from "./sidebarIcons/messages.svg";
-import grok from "./sidebarIcons/grok.svg";
-import communities from "./sidebarIcons/communities.svg";
-import premium from "./sidebarIcons/premium.svg";
-import verified from "./sidebarIcons/verified.jsx";
-import profile from "./sidebarIcons/profile.svg";
-import more from "./sidebarIcons/more.svg";
+import Home from "./sidebarIcons/Home";
+import ProfileIcon from "./sidebarIcons/Profile";
+import Premium from "./sidebarIcons/Premium";
+import Verified from "./sidebarIcons/Verified"
+import Communities from "./sidebarIcons/Communities"
+import Explore from "./sidebarIcons/Explore"
+import Grok from "./sidebarIcons/Grok"
+import Notification from "./sidebarIcons/Notification"
+import More from "./sidebarIcons/More"
+import Messages from "./sidebarIcons/Messages";
 
 export {
   emoji,
@@ -40,14 +40,14 @@ export {
   share,
   view,
   
-  explore,
-  notification,
-  messages,
-  grok,
-  communities,
-  premium,
-  verified,
-  profile,
-  more,
-  home,
+  Home,
+  ProfileIcon,
+  Premium,
+  Verified,
+  More,
+  Messages,
+  Communities,
+  Explore,
+  Grok,
+  Notification
 };
