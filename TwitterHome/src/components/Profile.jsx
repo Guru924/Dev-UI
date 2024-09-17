@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Profile({avatar, fullName, username}) {
+function Profile({ avatar, fullName, username }) {
     return (
         <div className="rounded-full mt-6 flex gap-2">
             <div>

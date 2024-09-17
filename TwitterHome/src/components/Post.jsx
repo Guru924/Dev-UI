@@ -24,7 +24,7 @@ function Post({
     return (
         <div className='posts hover:bg-[#090a0a] py-1 border-[#2f3336] border-b-[1px]'>
             <div className="flex">
-                <div className="avatar m-3 rounded-full"><img className="w-12" src={avatar} alt="" /></div>
+                <div className="avatar m-3 rounded-full"><img className="w-8 md:w-12" src={avatar} alt="" /></div>
 
                 <div className="">
                     <div className="about flex gap-2 my-3 cursor-pointer">
@@ -40,22 +40,23 @@ function Post({
                 {contentImg && <div className="bg-red-500 rounded-2xl"><img className="rounded-2xl" src={contentImg} alt="" /></div>}
 
                 <div className="icons flex justify-between mt-3 text-[#666a6f] py-2">
-                    <div className='flex hover:bg-blue-900 hover:rounded-full'><img className='invert w-5' src={comment} alt="comment icon" />
-                        <span>{icon.comment}</span>
+                    <div className='flex hover:bg-blue-900 hover:rounded-full gap-[2px]'><img className='invert w-3 md:w-5' src={comment} alt="comment icon" />
+                        <span className='text-sm md:text-base'>{icon.comment}</span>
                     </div>
-                    <div className='flex hover:bg-green-900 hover:rounded-full'><img className='invert w-5' src={repost} alt="repost icon" />
-                        <span>{icon.repost}</span></div>
-                    <div className='flex hover:bg-pink-800 hover:rounded-full'><img className='invert w-5' src={like} alt="like icon" />
-                        <span>{icon.like}</span></div>
-                    <div className='flex hover:bg-blue-900 hover:rounded-full'><img className='invert w-5' src={view} alt="view icon" />
-                        <span>{icon.view}</span></div>
-                    <div className='flex '>
-                        <div className='hover:bg-blue-900 hover:rounded-full'>
-                        <img className='invert w-5 ' src={bookmark} alt="bookmark icon" />
+                    <div className='flex hover:bg-green-900 hover:rounded-full gap-[2px]'><img className='invert w-3 md:w-5' src={repost} alt="repost icon" />
+                        <span className='text-sm md:text-base'>{icon.repost}</span></div>
+                    <div className='flex hover:bg-pink-800 hover:rounded-full gap-[2px]'><img className='invert w-3 md:w-5' src={like} alt="like icon" />
+                        <span className='text-sm md:text-base'>{icon.like}</span></div>
+                    <div className='flex hover:bg-blue-900 hover:rounded-full gap-[2px]'><img className='invert w-3 md:w-5' src={view} alt="view icon" />
+                        <span className='text-sm md:text-base'>{icon.view}</span></div>
+                    <div className='flex gap-[2px]'>
+                        <div className='hover:bg-blue-900 hover:rounded-full self-center'>
+                            <img className='invert w-3 md:w-5 ' src={bookmark} alt="bookmark icon" />
                         </div>
-                        <div className='hover:bg-blue-900 hover:rounded-full'>
-                        <img className='invert w-5 ' src={share} alt="share icon" /></div>
-                        </div>
+                        <div className='hover:bg-blue-900 hover:rounded-full self-center'>
+                            <img className='invert w-3 md:w-5 ' src={share} alt="share icon" /></div>
+
+                    </div>
 
                 </div>
             </div>
