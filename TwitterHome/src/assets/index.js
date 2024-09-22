@@ -24,6 +24,8 @@ import Notification from "./sidebarIcons/Notification"
 import More from "./sidebarIcons/More"
 import Messages from "./sidebarIcons/Messages";
 
+import _DSC0544 from './img/avatar/_DSC0544.jpg'
+
 export {
   emoji,
   poll,
@@ -49,5 +51,7 @@ export {
   Communities,
   Explore,
   Grok,
-  Notification
+  Notification,
+
+  _DSC0544
 };
