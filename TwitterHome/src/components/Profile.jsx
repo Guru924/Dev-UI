@@ -5,7 +5,7 @@ function Profile({ avatar, fullName, username }) {
         <div className="rounded-full mt-6 flex gap-2">
             <div>
                 <img
-                    className="w-10"
+                    className="w-10 rounded-full"
                     src={avatar} alt=" not showing" />
             </div>
             <div className="userN flex flex-col">

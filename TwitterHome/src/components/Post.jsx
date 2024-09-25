@@ -1,5 +1,4 @@
 import React from 'react'
-import logo3 from '../assets/logo3.png'
 import {
     bookmark,
     comment,
@@ -12,7 +11,7 @@ import {
 
 
 function Post({
-    avatar = logo3,
+    avatar,
     fullName = 'Guru',
     username = '@guru6073',
     date = ' . Sep 11',
@@ -24,7 +23,7 @@ function Post({
     return (
         <div className='posts hover:bg-[#090a0a] py-1 border-[#2f3336] border-b-[1px]'>
             <div className="flex">
-                <div className="avatar m-3 rounded-full"><img className="w-8 md:w-12" src={avatar} alt="" /></div>
+                <div className="avatar m-3 rounded-full"><img className="w-8 md:w-12 rounded-full" src={avatar} alt="" /></div>
 
                 <div className="">
                     <div className="about flex gap-2 my-3 cursor-pointer">

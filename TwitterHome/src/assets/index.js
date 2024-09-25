@@ -26,6 +26,14 @@ import Messages from "./sidebarIcons/Messages";
 
 import _DSC0544 from './img/avatar/_DSC0544.jpg'
 
+import OIP from './img/followers/OIP.jpeg'
+import whalealert from './img/followers/whalealert.png'
+import AirdropUltimate from '../assets/img/followers/AirdropUltimate.png'
+
+import passwordChanger from '../assets/img/posts/passwordChanger.png'
+import viteReact from '../assets/img/posts/viteReact.png'
+import bgChanger from '../assets/img/posts/bgChanger.png'
+
 export {
   emoji,
   poll,
@@ -53,5 +61,13 @@ export {
   Grok,
   Notification,
 
-  _DSC0544
+  _DSC0544,
+
+  OIP,
+  whalealert,
+  AirdropUltimate,
+
+  passwordChanger,
+  viteReact,
+  bgChanger
 };

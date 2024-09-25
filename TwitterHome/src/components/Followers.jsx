@@ -1,5 +1,4 @@
 import React from 'react'
-import logo3 from "../assets/logo3.png"
 
 function Followers({ avatar, fullName, userName }) {
     return (
@@ -7,7 +6,7 @@ function Followers({ avatar, fullName, userName }) {
             <div className='flex items-center'>
                 <div className="avatar"><img
                     className='h-10 w-10'
-                    src={avatar?.avatar || logo3} alt="Avatar" /></div>
+                    src={avatar} alt="Avatar" /></div>
                 <div className="item px-4 p-1 cursor-pointer">
                     <div className="font-bold">{fullName || "FULLNAME"}</div>
                     <div className="text-sm text-[#666a6f]">{userName || "@username"}</div>

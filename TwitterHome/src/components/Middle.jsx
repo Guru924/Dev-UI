@@ -1,7 +1,4 @@
 import React from 'react'
-import bgchanger from "../../public/bgchanger.png"
-import passwordChanger from "../../public/passwordChanger.png"
-import viteReact from "../../public/viteReact.png"
 import {
     emoji,
     gif,
@@ -10,10 +7,12 @@ import {
     schedule,
     location,
     globe,
-    comment,
+    _DSC0544 as Avtar,
+    bgChanger,
+    viteReact,
+    passwordChanger
 } from "../assets/index"
 import Post from "./Post"
-import logo3 from "../assets/logo3.png"
 
 function Middle() {
     const reactions = {
@@ -33,8 +32,8 @@ function Middle() {
             <div className="whathapp flex gap-1 border-b-[1px] border-[#666a6f]">
                 <div>
                     <img
-                        className="w-9 md:w-11 my-5 mx-1 md:m-5"
-                        src={logo3} alt="profile img" />
+                        className="w-9 md:w-11 my-5 mx-1 md:m-5 rounded-full"
+                        src={Avtar} alt="profile img" />
                 </div>
                 <div className="w-full">
                     <input className="w-full outline-none bg-inherit text-white text-xl py-6 placeholder:text-[#666a6f]"
@@ -71,19 +70,19 @@ function Middle() {
 
             <div>
                 <Post
-                    avatar={logo3}
+                    avatar={Avtar}
                     content="vite project"
                     contentImg={viteReact}
                     icon={reactions}
                 />
                 <Post
-                    avatar={logo3}
+                    avatar={Avtar}
                     content="bg-changer vite project"
-                    contentImg={bgchanger}
+                    contentImg={bgChanger}
                     icon={reactions}
                 />
                 <Post
-                    avatar={logo3}
+                    avatar={Avtar}
                     content="password-changer vite project"
                     contentImg={passwordChanger}
                     icon={reactions}

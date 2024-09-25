@@ -1,5 +1,4 @@
 import React from 'react'
-import logo3 from "../assets/logo3.png"
 import Profile from './Profile'
 import {
     Explore,
@@ -12,6 +11,7 @@ import {
     ProfileIcon,
     More,
     Home,
+    _DSC0544 as Avtar
 } from "../assets/index"
 
 function SideBar() {
@@ -108,7 +108,7 @@ function SideBar() {
 
                     <li className="hidden md:block">
                         <Profile
-                            avatar={logo3}
+                            avatar={Avtar}
                             fullName={"Guru Prasad Das"}
                             username={"@guru6073"}
                         />
