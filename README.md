@@ -30,6 +30,9 @@ Welcome to the **UI Clones** repository! This project contains a collection of c
 Here are some of the UI clones currently available in this repository:
 
 - **Clone 1**: [Twiter] - A fully responsive clone of the homepage.
+- **Clone 2**: [Netflix] - A fully responsive clone of the Netflix homepage.
+- **Clone 3**: [Card] - Card Template.
+- **Clone 4**: [Spotify] - Fully functional Spotify clone with media player.
 
 
 ## Getting Started
